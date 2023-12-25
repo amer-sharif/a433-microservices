@@ -5,7 +5,7 @@ version: "3.8"
 services:
   # Service item-app dari Github Container Registry
   item-app:
-    image: "ghcr.io/nekoto-kun/item-app:v1"
+    image: "ghcr.io/amer-sharif/item-app:v1"
 
     # Port 8080 container akan di expose ke port 80 host
     ports:
