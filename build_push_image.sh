@@ -9,7 +9,7 @@ echo "Daftar image yang tersedia"
 docker images
 
 # Menyiapkan image untuk di-push ke GitHub Container Registry
-docker tag item-app:v1 ghcr.io/nekoto-kun/item-app:v1
+docker tag item-app:v1 ghcr.io/amer-sharif/item-app:v1
 
 # Menunggu input PAT
 echo "Masukkan PAT: "
